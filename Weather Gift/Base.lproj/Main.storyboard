@@ -132,7 +132,11 @@
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="foU-Vp-8WB"/>
-                                    <barButtonItem title="+" id="vvu-gV-iCM"/>
+                                    <barButtonItem title="+" id="vvu-gV-iCM">
+                                        <connections>
+                                            <action selector="addBarButtonPressed:" destination="baA-zr-xAB" id="5DZ-bS-WEc"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
